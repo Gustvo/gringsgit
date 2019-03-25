@@ -1,16 +1,17 @@
 #include <iostream>
 
-<<<<<<< HEAD
 int soma(int a,int b){
     int resultado = a + b;
     return resultado;
 }
 
-=======
+float soma (float a, float b) {
+	return a+b;
+}
+
 double divisao( double a, double b){
 	return (a/b);
 }
->>>>>>> 66d2a6614ce6d2d0c2f729fb387e9066b90c38d3
 int main() {
     printf("Ola Mundo!");
     return 0;
